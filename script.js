@@ -18,7 +18,7 @@ function animatePath(path, strokeColor,
     path.style.transition = path.style.WebkitTransition = 
     `stroke-dashoffset ${transtionTime}s ease-in-out`;
     // Go!
-    path.style.strokeDashoffset = length * 0.67;          
+    path.style.strokeDashoffset = 0;          
 }
 
 const svg = document.getElementById('svg');
